@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Susie Koukoulis", rating: 5, text: "Alex transformed our garden above and beyond our expectations . It is now a garden where we can relax as a family and is very practical for use when childminding. Could not praise this company enough and would highly recommend . Thank you  ", date: "5 years ago" },
+    { name: "Siobhan Andrews", rating: 5, text: "Friendly and helpful service, Lush Lawns & Landscapes were able to advise on what would look best. Very pleased with our garden transformation. Would highly recommend ", date: "6 years ago" },
+    { name: "matt hallett", rating: 5, text: "Amazing prices, amazing work. Will definitely use these guys again. ", date: "6 years ago" },
+    { name: "Deb Parish", rating: 5, text: "Really disappointed Alex - you cam to quote and then never responded to my emails after i sent information as promised - Also ignore all further emails to find out what was going on ! I will not be recommending you ", date: "6 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
